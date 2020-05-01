@@ -18,7 +18,7 @@ services:
    depends_on:
       - dbos
    ports:
-      - 8081:80
+      - 8082:80
    environment:
       WORDPRESS_DB_HOST: dbos
       WORDPRESS_DB_USER: chirag
