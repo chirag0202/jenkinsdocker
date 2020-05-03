@@ -17,8 +17,8 @@ services:
    restart: always
    depends_on:
       - dbos
-   expose:
-      - 3306
+   ports:
+      - 8082:81
    environment:
       WORDPRESS_DB_HOST: dbos
       WORDPRESS_DB_USER: chirag
